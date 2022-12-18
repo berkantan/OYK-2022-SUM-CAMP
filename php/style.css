@@ -1,0 +1,38 @@
+* {
+    line-height: 1.6;
+    font-size: x-large;
+}
+
+h1,
+h2 {
+    color: yellow;
+    background-color: blueviolet;
+    font-size: xx-large
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(128, 0, 128, 0.274);
+}
+
+* {
+    color: black;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px;
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 115px;
+        padding-top: 25px;
+        margin-bottom: 0;
+    }
+}
